@@ -1,0 +1,21 @@
+.container {
+  position: absolute;
+}
+
+.menuItem {
+  font-family: '19PRALight', sans-serif;
+  font-weight: 400;
+  color: #878282;
+  transition: font-size 0.5s ease-in-out;
+}
+
+.menuItem:hover {
+  cursor: pointer;
+}
+
+.subText {
+  color: #878282;
+  opacity: 0;
+  position: fixed;
+  transition: opacity 0.5s ease-in-out;
+}

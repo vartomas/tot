@@ -1,0 +1,11 @@
+.mainHeader {
+  font-family: '19PRALight', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+  color: #294930;
+  text-align: center;
+}

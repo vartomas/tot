@@ -1,0 +1,23 @@
+.root {
+  position: absolute;
+  background-color: #294930;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  transition: width 0.2s ease-in-out, height 0.2s ease-in-out,
+    top 0.2s ease-in-out, right 0.2s ease-in-out;
+}
+
+.root:hover {
+  cursor: pointer;
+}
+
+.text {
+  color: white;
+  font-family: '19PRALight', sans-serif;
+  font-weight: 400;
+}

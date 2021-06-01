@@ -1,0 +1,12 @@
+.root {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.text {
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 1px;
+  color: #294930;
+}

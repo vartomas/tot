@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  background-color: #e5dcd8;
+}
+
+.gradientTop {
+  position: absolute;
+  width: 100%;
+  background: rgb(229, 220, 216);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.gradientMiddle {
+  position: absolute;
+  width: 100%;
+  background: rgb(255, 255, 255);
+}
+.gradientBottom {
+  position: absolute;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(229, 220, 216, 0) 100%
+  );
+}
+
+.header2 {
+  font-family: '19PRALight', sans-serif;
+  color: #294930;
+  font-weight: 400;
+  position: absolute;
+}
+
+.paragraph {
+  color: #878282;
+  position: absolute;
+  overflow: hidden;
+}
+
+.paragraph2 {
+  color: #294930;
+  position: absolute;
+  font-weight: 900;
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
